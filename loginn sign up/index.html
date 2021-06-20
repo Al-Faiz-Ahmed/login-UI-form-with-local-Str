@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="body__div">
+        <div class="model">
+            <div class="d__flex">
+                <div class="info">
+                    <h1>Energise Dash</h1>
+                    <p>Lets get started from the firm you Deserve .</p>
+                    <img src="img/illustration__PNG.png" alt="">
+                </div>
+                <div class="parentOf__formFields">
+                    <div class="form__fileds">
+                        <div class="btn__container">
+                            <button onclick="btnChanger(this)" class="logIn ">Log In</button>
+                            <button onclick="btnChanger(this)" class="signUp active">Sign Up</button>
+                        </div>
+                        <div class="forms">
+                            <div class="form__Signup">
+                                <div><input id="Username" placeholder="Username" type="text"></div>
+                                <div><input id="Email" placeholder="Email" type="text"></div>
+                                <div><input id="Password" placeholder="Password" type="text"></div>
+                                <div><button onclick="getVal__SetVal()">Sign Up</button></div>
+                            </div>
+                            <div class="form__Login">
+                                <div><input id="emailorusername" placeholder="Username, Email " type="text"></div>
+                                <div><input id="verifyPassword" placeholder="Password" type="text"></div>
+                                <div><button onclick="chechUSer()">Log In</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

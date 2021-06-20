@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica,sans-serif,arial;
+}
+:root{
+    --prim-color:#EE7674;
+    --bg-color:#FAF6F6;
+}
+
+
+button,input{
+    border: none;
+    outline: none ;
+    background: transparent;
+}
+
+.body__div{
+    background-color: var(--bg-color);
+ height: 100vh;
+ display: flex;
+ align-items:center;
+}
+.model{
+    margin: auto;
+    background-color: var(--prim-color);
+    height: 65%;
+    width: 55%;
+    border-radius:25px;
+    /* overflow: hidden; */
+    box-shadow: 0px 40px 40px #F8C9C9,
+    4px 0px 60px #F8C9C9,
+    -4px 0px 40px #F8C9C9;
+}
+.d__flex{
+    display: flex;
+    height: 100%;
+    padding: 25px;
+}
+.info{
+    color: var(--bg-color);
+    flex: 1;
+    padding-left: 20px;
+}
+.info h1{
+    font-size: 35px;
+    margin-top: 20px;
+}
+.info p{
+    margin-top: 20px;
+}
+.info img{
+    display: block;
+    margin-top: 50px;
+    width: 80%;
+}
+
+.parentOf__formFields{
+    flex: 1;
+    overflow: hidden;
+
+}
+.form__fileds{
+    width: 100%;
+    height: 100%;
+
+}
+.btn__container{
+    overflow: hidden;
+    width: fit-content;
+    border-radius:50px;
+    margin-left: auto;
+    border: 2px solid var(--bg-color);
+}
+.btn__container button{
+    font-size: 18px;
+    padding:  5px 15px;
+    background-color: transparent ;
+    color: var(--bg-color) ;
+    cursor: pointer;
+
+}
+.active{
+    background-color: var(--bg-color) !important;
+    color: var(--prim-color) !important;
+    
+}
+.forms{
+    height:100%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.forms input{
+    border-bottom: 2px solid var(--bg-color);
+    width: 100%;
+    color: var(--bg-color);
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+.forms input::placeholder{
+    color: #faf6f696;
+}
+.forms button{
+    cursor: pointer;
+    background-color: var(--bg-color);
+    color: var(--prim-color) ;
+    padding:  4px 15px;
+    border-radius:50px;
+    font-size: 18px;
+}
+.forms div div{
+    margin: auto;
+    margin-top: 40px;
+    width: 80%;
+}
+.forms div div:nth-last-child(1){
+    
+    margin-top: 30px;
+}
+.forms .form__Signup{
+    height: 100%;
+    background-color: var(--prim-color);
+    transition: 0.8s linear;
+    position: absolute;
+    top:0%;
+    width: 100%;
+}
+
+
+.forms .form__Login{
+    /* border: 2px solid red; */
+    
+    height: 100%;
+    transition: 0.8s linear;
+    background-color: var(--prim-color);
+    position: absolute;
+    width: 100%;
+    
+   
+}
